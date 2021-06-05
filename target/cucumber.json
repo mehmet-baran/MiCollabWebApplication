@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-05T11:45:31.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4467856000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.miCollab.step_definitions.Hooks.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "MiCollab incoming call validation",
+        "description": "",
+        "id": "micollab-web-application-automation;micollab-incoming-call-validation",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.77)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027mehmets-iMac.local\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/tl/wdz2j_6906j...}, goog:chromeOptions: {debuggerAddress: localhost:49922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c2324aaf15715e6f9e91da5f6510079f\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat com.miCollab.utilities.CommonSteps.takeScreenshot(CommonSteps.java:46)\n\tat com.miCollab.step_definitions.Hooks.tearDown(Hooks.java:35)\n",
+              "duration": 4557000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.miCollab.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151599000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user accepts the license agreement",
+            "match": {
+              "location": "com.miCollab.step_definitions.LoginSteps.the_user_accepts_the_license_agreement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4330606000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in with \"QT14126@qmul.ac.uk\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QT14126@qmul.ac.uk\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.miCollab.step_definitions.LoginSteps.the_user_logs_in_with_credentials(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.77)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027mehmets-iMac.local\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/tl/wdz2j_6906j...}, goog:chromeOptions: {debuggerAddress: localhost:49922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c2324aaf15715e6f9e91da5f6510079f\n*** Element info: {Using\u003dxpath, value\u003d(//div[@data-vn\u003d\u0027inboundCall\u0027]//div[starts-with(@class,\u0027cust-button-content\u0027)])[2]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:348)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)\n\tat com.miCollab.pages.DashboardPage.isIncomingCallAvailable(DashboardPage.java:25)\n\tat com.miCollab.step_definitions.AgentSteps.the_user_should_wait_minutes_and_accept_all_incoming_calls(AgentSteps.java:28)\n\tat ✽.the user should wait 120 minutes and accept all incoming calls(file:///Users/mehmet/IdeaProjects/MiCollabWebApplication/src/test/resources/features/miCollab.feature:7)\n",
+              "duration": 6390942000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user should wait 120 minutes and accept all incoming calls",
+            "match": {
+              "arguments": [
+                {
+                  "val": "120",
+                  "offset": 21
+                }
+              ],
+              "location": "com.miCollab.step_definitions.AgentSteps.the_user_should_wait_minutes_and_accept_all_incoming_calls(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MiCollab Web Application Automation",
+    "description": "",
+    "id": "micollab-web-application-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/miCollab.feature",
+    "tags": []
+  }
+]
